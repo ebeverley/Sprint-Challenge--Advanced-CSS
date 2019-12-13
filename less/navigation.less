@@ -1,1 +1,33 @@
 // Navigation code here
+.navbar{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:@nav-bg;
+    width:55%;
+    margin-left:23%;
+    height:12vh;
+    @media @phone{
+        width:99%;
+        height:15vh;
+        margin-left:0.5%;
+      }
+
+        h1{
+        font-size:4.5rem;
+        padding-bottom:3%;
+    }
+    nav{
+        .navmixin;
+        @media @phone{
+            width:100%;
+          }
+
+    }
+    nav a{
+        text-decoration:none;
+        font-size:2rem;
+        color:@ebony-clay;
+    }
+}

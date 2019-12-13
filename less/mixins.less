@@ -1,1 +1,35 @@
 // Mixins Here
+.custom-button(@size,@background,@color){
+    font-size:@size;
+    background-color:@background;
+    color:@color;
+    border-radius:10px;
+    height:4vh;
+    width:35%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    &:hover{
+        color:@btn-bg-color;
+        background-color:@porcelain;
+    }
+    @media @phone{
+        width:95%;
+        height:10vh;
+        margin-left:2.2%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:3%;
+    }
+}
+
+.navmixin(){
+    display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        width:50%;
+}
+.phone-font(){
+    font-weight:bold;
+}
