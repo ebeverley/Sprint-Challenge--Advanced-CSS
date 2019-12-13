@@ -338,6 +338,10 @@ footer {
     align-items: center;
     margin-bottom: 3%;
   }
+  .home .walk .walk-text .btn:hover {
+    color: #22283A;
+    background-color: #F6F7F8;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
